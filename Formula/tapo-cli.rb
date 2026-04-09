@@ -3,8 +3,8 @@ class TapoCli < Formula
 
   desc "Control Tapo cameras from the terminal"
   homepage "https://github.com/mac1010z/tapo-cli"
-  url "https://github.com/mac1010z/tapo-cli/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "8c5e43b152825410470d4c9ee7e523b582f7b940acbf35e28fc767685a00cef5"
+  url "https://github.com/mac1010z/tapo-cli/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "75852df52b2ad0147bea11920f0a894ffee49dcb955ed2197c277237c566507a"
   license "MIT"
 
   depends_on "python@3.13"
@@ -15,10 +15,6 @@ class TapoCli < Formula
     sha256 "cd27837860ffefc6c8a0a9ba07c04de2a5901358af360caf9eb1ad82c7a43373"
   end
 
-  resource "Pillow" do
-    url "https://files.pythonhosted.org/packages/source/p/pillow/pillow-11.1.0.tar.gz"
-    sha256 "368da70808b36d73b4b390a8ffac11069f8a5c85f29eff1f1b01bcf3ef5b2a20"
-  end
 
   def install
     virtualenv_install_with_resources
