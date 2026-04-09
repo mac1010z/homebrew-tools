@@ -1,10 +1,10 @@
-class TapoCli < Formula
+class TapokittyCli < Formula
   include Language::Python::Virtualenv
 
-  desc "Control Tapo cameras from the terminal"
-  homepage "https://github.com/mac1010z/tapo-cli"
-  url "https://github.com/mac1010z/tapo-cli/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "55e02060a15358731d273f50d2f0a261a798680227ebb781da6980c8c07e57e7"
+  desc "Control Tapo cameras from the terminal (Kitty graphics)"
+  homepage "https://github.com/mac1010z/tapokitty-cli"
+  url "https://github.com/mac1010z/tapokitty-cli/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "06d22a9798c5242d85260ce0f583bff200640403db81e849ae2c9290516a816e"
   license "MIT"
 
   depends_on "python@3.13"
@@ -55,6 +55,6 @@ class TapoCli < Formula
   end
 
   test do
-    assert_match "usage", shell_output("#{bin}/tapo --help")
+    assert_match "usage", shell_output("#{bin}/tapokitty --help")
   end
 end
