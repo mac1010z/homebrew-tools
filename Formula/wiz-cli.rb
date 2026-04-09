@@ -3,8 +3,8 @@ class WizCli < Formula
 
   desc "Control WiZ smart lights from the terminal"
   homepage "https://github.com/mac1010z/wiz-cli"
-  url "https://github.com/mac1010z/wiz-cli/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "95213a87066a9caeb8ab1a951a3cce498adb18dfc3b917d00d75078f29cecde8"
+  url "https://github.com/mac1010z/wiz-cli/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "2a4ab501566e30081442663b5aa1d1f063c99a181edf4b32f6cd40eb588c61c9"
   license "MIT"
 
   depends_on "python@3.13"
