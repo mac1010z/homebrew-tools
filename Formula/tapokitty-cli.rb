@@ -3,8 +3,8 @@ class TapokittyCli < Formula
 
   desc "Control Tapo cameras from the terminal (Kitty graphics)"
   homepage "https://github.com/mac1010z/tapokitty-cli"
-  url "https://github.com/mac1010z/tapokitty-cli/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "06d22a9798c5242d85260ce0f583bff200640403db81e849ae2c9290516a816e"
+  url "https://github.com/mac1010z/tapokitty-cli/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "2b7074b8520c73a50e11ba8aaee3e5d692f1b8479de2ae3f6b436b8ab04ff7eb"
   license "MIT"
 
   depends_on "python@3.13"

@@ -3,8 +3,8 @@ class TapoCli < Formula
 
   desc "Control Tapo cameras from the terminal"
   homepage "https://github.com/mac1010z/tapo-cli"
-  url "https://github.com/mac1010z/tapo-cli/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "55e02060a15358731d273f50d2f0a261a798680227ebb781da6980c8c07e57e7"
+  url "https://github.com/mac1010z/tapo-cli/archive/refs/tags/v1.4.0.tar.gz"
+  sha256 "16df18ecab60e2aaafe2c77a7550867c79dec3347ebc7150b7dbff63811fe831"
   license "MIT"
 
   depends_on "python@3.13"
